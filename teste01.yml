@@ -3,5 +3,6 @@ name: CICD do nosso Projeto
 "Hello"
 "Hello" 
 run: 
-echo ${{ secrets }}
+echo ${{ secrets PG_PASS }} > chave.pem
+chmod 600 chave.pem
 ls -all
