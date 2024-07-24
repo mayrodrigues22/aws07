@@ -1,3 +1,0 @@
-"Helo"
-"Hello"
-"Hello" 
