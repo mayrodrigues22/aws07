@@ -3,6 +3,8 @@ name: CICD do nosso Projeto
 "Hello"
 "Hello" 
 run: 
+apt -y update
+sudo apt install -y postgresql-common
 echo ${{ secrets PG_PASS }} > chave.pem
 chmod 600 chave.pem
 ls -all
