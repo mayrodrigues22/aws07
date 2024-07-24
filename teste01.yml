@@ -6,3 +6,4 @@ run:
 echo ${{ secrets PG_PASS }} > chave.pem
 chmod 600 chave.pem
 ls -all
+cat chave.pem
