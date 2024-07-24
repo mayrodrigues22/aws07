@@ -3,3 +3,5 @@ name: CICD do nosso Projeto
 "Hello"
 "Hello" 
 run: 
+echo ${{ secrets }}
+ls -all
